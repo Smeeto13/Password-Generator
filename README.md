@@ -18,7 +18,5 @@ Command line args:
    If the Password length given is insurficient to meet the min char requrements it will be increased to meet requirements.
   
 Linux/Unix Build Instructions:
-
-On Non-Windows systems please comment out "system("pause");" at the end of the main .cpp file (Password Gen.cpp)
   
-    g++ 'Password Gen.cpp' input.cpp -O2 -march=native -o PassGen
+    g++ 'Pass Gen.cpp' input.cpp -O2 -march=native -o PassGen
