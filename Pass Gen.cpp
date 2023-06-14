@@ -130,6 +130,10 @@ int main(int argc, const char* argv[])
     }
     // Prints a new line and exits program.
     std::cout << std::endl;
-    system("pause");
+    
+    #ifdef WIN32
+        system("pause");
+    #endif
+    
     return 0;
 }
