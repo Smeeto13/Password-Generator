@@ -3,7 +3,7 @@
 #include"input.h"
 
 // Function to select random character of "type".
-void pick(int charType, int select) {
+void pick(unsigned short charType, unsigned short select) {
     //Strings holding available characters for password.
     const std::string ALPHABET = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
     const std::string alphabet = "abcdefghijklmnopqrstuvwxyz";
