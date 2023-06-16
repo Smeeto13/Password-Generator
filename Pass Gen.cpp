@@ -105,7 +105,7 @@ int main(int argc, const char* argv[])
             type = RNG(gen) % 4;
 
             // Ensures requirements are met before expending remaining characters as random types.
-            if (passRequirements[type] > 0 && total > 0)
+            if (passRequirements[type] != 0 && total != 0)
             {
                 // Calls "pick" function with type of character wanted and a random number for character selection.
                 pick(type, RNG(gen));
