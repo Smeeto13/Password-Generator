@@ -1,5 +1,5 @@
 # Password-Generator
-Simple Password-Generator writen in C++
+Simple yet fast Password-Generator writen in C++, Tested on X86_64 and ARM64 
 
 
 Command line args:
@@ -15,7 +15,9 @@ Command line args:
     
    Will create a 10 character password with 4 Upper case, 3 Lower case, 2 Symbol and 1 Number characters.
   
-   If the Password length given is insurficient to meet the min char requrements it will be increased to meet requirements.
+   If the Password length given is insurficient to meet the min char requrements it will be increased to meet requirements, if the password langth is longer then the minimum char requirement random characters will be selected to meet the length requirement.
+   If the program is ran without command line arguments it will run in a interactive mode.
+   If using command line operation the lenght must be provided, if one of the password requirements are provided they all must be.
   
 Linux/Unix Build Instructions:
   
